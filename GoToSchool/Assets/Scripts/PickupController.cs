@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PickupController : MonoBehaviour {
 
+	public GUIText pickupText;
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -17,7 +19,7 @@ public class PickupController : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "PickUp") 
 		{
-
+			pickupText.text = "Du har plockat upp en " + other.name;
 		}
 	}
 }
