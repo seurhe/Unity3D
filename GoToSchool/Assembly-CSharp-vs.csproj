@@ -46,31 +46,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnimationStateMachine\Archive\RootMotionControllerv1\Plugins\Mixamo\RootMotionComputer.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Archive\RootMotionControllerv1\Scripts\RootMotionCharacter.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Aux Scripts\AnimationGraph.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Aux Scripts\AnimationInfo.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Aux Scripts\ExtendendMonoBehaviour.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Aux Scripts\MixamoJSON.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Aux Scripts\Util.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Blank Scripts for You\YourController.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Scripts\AnimationStateMachine.cs" />
-     <Compile Include="Assets\AnimationStateMachine\Scripts\MixamoDemoControlScript.cs" />
-     <Compile Include="Assets\CameraSwitcher.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\PickupController.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\CameraSwitcher.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\AnimationGraph.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\AnimationStateMachine.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\ExtendendMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\MixamoDemoControlScript.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\MixamoJSON.cs" />
+     <Compile Include="Assets\Scripts\Mixamo\Util.cs" />
      <None Include="Assets\Shaders\CGIncludes\HLSLSupport.cginc" />
      <None Include="Assets\Shaders\CGIncludes\UnityShaderVariables.cginc" />
      <None Include="Assets\Shaders\CGIncludes\Lighting.cginc" />
-     <None Include="Assets\AnimationStateMachine\README.txt" />
      <None Include="Assets\Shaders\CGIncludes\UnityCG.cginc" />
-     <None Include="Assets\AnimationStateMachine\Blank Scripts for You\YourGraph.txt" />
      <None Include="Assets\Shaders\CGIncludes\AutoLight.cginc" />
      <None Include="Assets\Shaders\CGIncludes\Tessellation.cginc" />
      <None Include="Assets\Shaders\SimpleGlass.shader" />
      <None Include="Assets\Shaders\CGIncludes\TerrainEngine.cginc" />
-     <None Include="Assets\AnimationStateMachine\Scripts\demo_motion_pack.txt" />
+     <None Include="Assets\Scripts\Mixamo\demo_motion_pack.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

@@ -50,14 +50,12 @@
      <None Include="Assets\Shaders\CGIncludes\HLSLSupport.cginc" />
      <None Include="Assets\Shaders\CGIncludes\UnityShaderVariables.cginc" />
      <None Include="Assets\Shaders\CGIncludes\Lighting.cginc" />
-     <None Include="Assets\AnimationStateMachine\README.txt" />
      <None Include="Assets\Shaders\CGIncludes\UnityCG.cginc" />
-     <None Include="Assets\AnimationStateMachine\Blank Scripts for You\YourGraph.txt" />
      <None Include="Assets\Shaders\CGIncludes\AutoLight.cginc" />
      <None Include="Assets\Shaders\CGIncludes\Tessellation.cginc" />
      <None Include="Assets\Shaders\SimpleGlass.shader" />
      <None Include="Assets\Shaders\CGIncludes\TerrainEngine.cginc" />
-     <None Include="Assets\AnimationStateMachine\Scripts\demo_motion_pack.txt" />
+     <None Include="Assets\Scripts\demo_motion_pack.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
