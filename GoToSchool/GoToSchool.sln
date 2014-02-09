@@ -5,6 +5,8 @@ Project("{FD17111E-0567-C641-0F81-3C56DBB119F4}") = "GoToSchool", "Assembly-CSha
 EndProject
 Project("{FD17111E-0567-C641-0F81-3C56DBB119F4}") = "GoToSchool", "Assembly-CSharp.csproj", "{71FB0197-000F-9129-0CF2-F29EF17D12EB}"
 EndProject
+Project("{FD17111E-0567-C641-0F81-3C56DBB119F4}") = "GoToSchool", "Assembly-CSharp-Editor.csproj", "{46C18D42-36E1-F255-AFDB-C938BCB4F7BB}"
+EndProject
 Project("{FD17111E-0567-C641-0F81-3C56DBB119F4}") = "GoToSchool", "Assembly-UnityScript-firstpass.unityproj", "{5C61BD35-70BC-DEBD-8EE2-1CADBA832D97}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{71FB0197-000F-9129-0CF2-F29EF17D12EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71FB0197-000F-9129-0CF2-F29EF17D12EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71FB0197-000F-9129-0CF2-F29EF17D12EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C18D42-36E1-F255-AFDB-C938BCB4F7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C18D42-36E1-F255-AFDB-C938BCB4F7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C18D42-36E1-F255-AFDB-C938BCB4F7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C18D42-36E1-F255-AFDB-C938BCB4F7BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C61BD35-70BC-DEBD-8EE2-1CADBA832D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C61BD35-70BC-DEBD-8EE2-1CADBA832D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C61BD35-70BC-DEBD-8EE2-1CADBA832D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																								GlobalSection(MonoDevelopProperties) = preSolution
+																																															GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
