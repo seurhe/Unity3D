@@ -29,9 +29,10 @@ public class DoorAnimation : MonoBehaviour
 	{
 		Debug.Log ("other = " + other);
 
-		if (other.gameObject.tag == "Door")
+		if (other.gameObject.tag == "Player")
 		{
-			other.gameObject.SetActive(false);
+//			other.gameObject.SetActive(false);
+			this.gameObject.SetActive(false);
 		}
 //		// If the triggering gameobject is the player...
 //		if(other.gameObject == player)
@@ -69,10 +70,11 @@ public class DoorAnimation : MonoBehaviour
 	{
 		Debug.Log ("other = " + other);
 
-		if (other.gameObject.tag == "Door")
+		if (other.gameObject.tag == "Player")
 		{
 //			other.enabled = true;
-			other.gameObject.SetActive(false);
+//			other.gameObject.SetActive(false);
+			this.gameObject.SetActive(false);
 		}
 		//		// If the leaving gameobject is the player or an enemy and the collider is a capsule collider...
 //		if(other.gameObject == player || (other.gameObject.tag == Tags.enemy && other is CapsuleCollider))
